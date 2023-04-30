@@ -1,13 +1,49 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-
     <title>Pete's Pizza Delivery</title>
   </head>
   <body>
-    <h3>Pete's Pizza Delivery</h3><br><br>
-    <h4> Online ORder Form</h4><br><br>
+    <h3>Pete's Pizza Delivery</h3><br>
+    <h4> Online Order Form</h4><br><br>
+    <label for="Name">Enter Your Name: <input id="name" name="name" type="text" required /></label>
+    <label for="Tel">Tel: <input id="tel" name="tel" type="text" required /></label><br>
+    <label for="Address">Address: <input id="address" name="address" type="text" required /></label>
+    <label for="email">Enter Your Email: <input id="email" name="email" type="email" required /></label><br>
+    <label for="Location">Town/City: <input id="Town/City" name="Town/City" type="text" required /></label><br>
+    <label for="Postcode">Postcode: <input id="postcode" name="postcode" type="text" required /></label><br><br><br>
+   
+    <label><b>Topping</b></label><br> 
+    <label for="topping"><input id="topping" type="radio" name="toping"  /> Margherita</label><br>
+    <label for="topping"><input id="topping" type="radio" name="toping" /> Four seasons</label><br>
+    <label for="topping"><input id="topping" type="radio" name="toping"  /> Meat Feast</label><br>
+
+    <label><b>Size</b></label><br> 
+    <label for="size"><input id="size" type="radio" name="size"  /> Small</label><br>
+    <label for="size"><input id="size" type="radio" name="size" /> Medium</label><br>
+    <label for="size"><input id="size" type="radio" name="size"  /> Large</label><br>
+
+   <label><b>Extras</b></label><br>
+    <label for="Extras">Mushrooms
+    <input id="Extras" type="checkbox"  name="Extras"  /> 
+        </label><br>
+        <label for="Extras">Green Peppers
+          <input id="Extras" type="checkbox"  name="Extras"  /> 
+              </label><br>
+              <label for="Extras">Anchovies
+                <input id="Extras" type="checkbox"  name="Extras"  /> 
+                    </label><br>
+                    <label for="Extras">Extra cheese
+                      <input id="Extras" type="checkbox"  name="Extras"  /> 
+                          </label><br>
+                          <label for="time">Preferred Delivery Time <input id="time" name="time" type="time"/></label><br><br> 
+    <label for="instruction">Delivery Instructions:
+      <textarea id="instructions" name="instructions" rows="3" cols="30" ></textarea>
+    </label><br><br>
+    <input type="submit" value="Submit order" />
 
   </body>
 </html>
+  
